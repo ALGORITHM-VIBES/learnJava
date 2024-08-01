@@ -1,6 +1,7 @@
 /*
  * @elseif - it check all if and else if statements if any stated true it will execute that block of code otherwise else block.
  * @syntax - if(condition) { if block code } else if(condition) { else if block code } else { else block code }.
+ * @note - it's in a form of nested.
  */
 import java.util.Scanner;
 
