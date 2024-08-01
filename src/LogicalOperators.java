@@ -22,10 +22,10 @@ public class LogicalOperators {
             System.out.println("Hi, Kid please bring your parents!");
         } else if(age == 13) {
             System.out.println("Just turned 13??");
+        } else if(age > 13 && age <= 17) {
+            System.out.println("Hi, teenager!");
         } else if(age >= 18) {
             System.out.println("Hello, adult!");
-        } else if(age > 13) {
-            System.out.println("Hi, teenager!");
         }
 
         scanner.close();
