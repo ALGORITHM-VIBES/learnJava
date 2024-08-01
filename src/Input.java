@@ -3,6 +3,7 @@
  * @syntax  - Scanner scanner = new Scanner(System.in);
  * Scanner, Basically an java inbuild library module/class which use to interact with user console inputs.
  * There are more methods in 'Scanner' Class that you obviously want to explore
+ * @note - don't Forget to close scanner.
  */
 
 import java.util.Scanner;
@@ -13,6 +14,7 @@ public class Input {
 
         System.out.print("Enter an number: ");
         int number = scanner.nextInt();
+        scanner.close();
 
         System.out.print("You Entered: ");
         System.out.println(number);
