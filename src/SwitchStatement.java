@@ -1,7 +1,7 @@
 /*
  * @switch case - it is used to stated one case value.
  * @syntax: switch(value) { case 1: block code; break; default: block code; }
- * @note - you case use as many case you want.
+ * @note - you case use as many cases you want.
  */
 import java.util.Scanner;
 
