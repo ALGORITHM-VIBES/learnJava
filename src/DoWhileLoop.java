@@ -14,7 +14,7 @@ public class DoWhileLoop {
                 doNext = false;
             }
 
-            System.out.println(i);
+            System.out.println(i+1);
 
             i++;
         } while (doNext);
