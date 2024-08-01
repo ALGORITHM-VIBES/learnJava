@@ -23,5 +23,7 @@ public class SwitchExpression {
         };
 
         System.out.println(message);
+
+        scanner.close();
     }
 }

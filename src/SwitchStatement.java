@@ -23,5 +23,7 @@ public class SwitchStatement {
             default:
                 throw new AssertionError("Not have much information about it.");
         }
+
+        scanner.close();
     }
 }
